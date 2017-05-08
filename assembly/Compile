@@ -1,0 +1,2 @@
+nasm -f elf keygen_byte.asm
+gcc -m32 keygen_byte.o -o keygen_byte
